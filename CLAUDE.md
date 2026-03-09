@@ -26,7 +26,13 @@ Everything lives in `tictactoe.html` — HTML structure, CSS styles, and JavaScr
 
 ## Git & GitHub
 
-All changes should be committed with clear messages and pushed to GitHub:
+**Commit and push after every meaningful change.** This keeps the GitHub repo in sync and ensures no work is ever lost. Do not batch up multiple unrelated changes into one commit.
+
+Rules:
+- Commit after each feature, fix, or notable change — not just at the end of a session
+- Use concise, descriptive commit messages that explain *what* changed and *why*
+- Always push immediately after committing
+
 ```bash
 git add <file>
 git commit -m "descriptive message"
